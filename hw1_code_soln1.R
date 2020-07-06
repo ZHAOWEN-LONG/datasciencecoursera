@@ -126,7 +126,7 @@ list_final
 max(list_final)
 
 
-## quicker way to calculate mean and filter through NA data
+## quicker way to calculate mean and filter through NA data / function is.na is important here
 x<-df["Ozone"]
 u<-!is.na(x)
 sum(x[u])/length(x[u])
